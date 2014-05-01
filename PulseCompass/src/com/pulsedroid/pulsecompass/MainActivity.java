@@ -37,6 +37,7 @@ public class MainActivity extends SlidingActivity implements SensorEventListener
        
         SlidingMenu sm = getSlidingMenu();
         sm.setMode(SlidingMenu.LEFT);
+        sm.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
         sm.setBehindOffset(125);
         sm.setShadowWidthRes(R.dimen.shadow_width);
         sm.setShadowDrawable(R.drawable.shadow);
